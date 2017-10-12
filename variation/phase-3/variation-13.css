@@ -1,0 +1,30 @@
+#title {
+  text-align: center;
+}
+
+#outer {
+  overflow: scroll;
+}
+#leftFixed {
+  float: left;
+  display: block;
+  position: fixed;
+  top: 10%;
+  right:75%;
+  padding-bottom: 50px;
+}
+
+#rightFixed {
+  float: right;
+  display: inline-block;
+  position: fixed;
+  top: 10%;
+  right: 25%;
+  padding-bottom: 50px;
+}
+
+#centered {
+  text-align: center;
+
+  padding-bottom: 150px;
+}
