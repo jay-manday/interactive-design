@@ -1,0 +1,19 @@
+
+  body {
+    margin:0;
+    padding:0;
+  }
+  .marquee3k {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: blue;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: white;
+  }
