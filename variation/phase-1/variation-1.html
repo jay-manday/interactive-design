@@ -3,10 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Hello World</title>
-    <script src="../../marquee3k.js"> </script>
-    <link rel="stylesheet" type="text/css" href="../../marquee.css">
+
+    <script src="../../nav/marquee3k.js"> </script>
+    <link rel="stylesheet" type="text/css" href="../../nav/marquee.css">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #nav {
+        border: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
+
     <div class="marquee3k"
       data-speed="0.25" → play around here
       data-reverse="bool" → default: R to L / T to B
@@ -20,31 +34,25 @@
         &nbsp;Variation 1&nbsp;
       </a>
 
-
       <a href="./variation-2.html">
         Variation 2
       </a>
-
 
       <a href="./variation-3.html">
         Variation 3
       </a>
 
-
       <a href="./variation-4.html">
         Variation 4
       </a>
-
 
       <a href="./variation-5.html">
         Variation 5
       </a>
 
-
       <a href="../phase-2/variation-6.html">
         Variation 6
       </a>
-
 
       <a href="../phase-2/variation-7.html">
         Variation 7
@@ -59,7 +67,6 @@
       <a href="../phase-2/variation-9.html">
         Variation 9
       </a>
-
 
       <a href="../phase-2/variation-10.html">
         Variation 10
@@ -90,7 +97,10 @@
         Variation 16
       </a>
 
-    </h1></div></div>
+      </h1>
+    </div>
+  </div>
+
     <p>And this I dreamt, and this I dream,</p>
     <p>by Arseny Tarkovsky</p>
     <br />
@@ -278,8 +288,10 @@
       &nbsp; &nbsp;
       takes a child on her lap.
     </p>
+
     <script>
       Marquee3k.init();
     </script>
+
   </body>
 </html>
