@@ -1,0 +1,143 @@
+/* rems */
+html {
+font-size: 62.5%;
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+#floater {
+/* typography */
+font-family: Arial Black, Arial;
+font-weight: bold;
+font-size: 5rem;
+line-height: 4.2rem;
+letter-spacing: 0.03rem;
+
+
+/* positioning */
+width: 100%;
+height: 100%;
+}
+
+.line1 {
+  padding-top: 30px;
+}
+.line2 {
+  padding-top: 30px;
+}
+.word-wrap {
+float: left;
+padding-left: 18px;
+}
+
+.word1 span:nth-of-type(odd), .word4 span:nth-of-type(odd), .word8 span:nth-of-type(odd), .word9 span:nth-of-type(odd), .word10 span:nth-of-type(odd), .word11 span:nth-of-type(odd), .word12 span:nth-of-type(odd), .word14 span:nth-of-type(odd) {
+font-size: 5rem;
+}
+
+.word2 span:nth-of-type(even), .word3 span:nth-of-type(even), .word5 span:nth-of-type(even), .word6 span:nth-of-type(even), .word7 span:nth-of-type(even), .word13 span:nth-of-type(even), .word15 span:nth-of-type(even), .word16 span:nth-of-type(even) {
+font-size: 5rem;
+}
+
+/* iPhone 5 */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	html {
+	font-size: 31.25%;
+	}
+
+	#floater {
+	/* typography */
+	font-family: Arial Black, Arial;
+	font-weight: bold;
+	font-size: 5rem;
+	line-height: 3rem;
+	letter-spacing: 0.03rem;
+	}
+
+	.word-wrap {
+	float: left;
+	padding-right: 5px;
+	}
+
+	.word1 span:nth-of-type(odd), .word4 span:nth-of-type(odd), .word8 span:nth-of-type(odd), .word9 span:nth-of-type(odd), .word10 span:nth-of-type(odd), .word11 span:nth-of-type(odd), .word12 span:nth-of-type(odd), .word14 span:nth-of-type(odd) {
+	font-size: 5rem;
+	}
+
+	.word2 span:nth-of-type(even), .word3 span:nth-of-type(even), .word5 span:nth-of-type(even), .word6 span:nth-of-type(even), .word7 span:nth-of-type(even), .word13 span:nth-of-type(even), .word15 span:nth-of-type(even), .word16 span:nth-of-type(even) {
+	font-size: 5rem;
+	}
+
+}
+
+/* iPhone 6 */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	html {
+	font-size: 31.25%;
+	}
+
+	#floater {
+	/* typography */
+	font-family: Arial Black, Arial;
+	font-weight: bold;
+	font-size: 5rem;
+	line-height: 3rem;
+	letter-spacing: 0.03rem;
+	}
+
+	.word-wrap {
+	float: left;
+	padding-right: 5px;
+	}
+
+	.word1 span:nth-of-type(odd), .word4 span:nth-of-type(odd), .word8 span:nth-of-type(odd), .word9 span:nth-of-type(odd), .word10 span:nth-of-type(odd), .word11 span:nth-of-type(odd), .word12 span:nth-of-type(odd), .word14 span:nth-of-type(odd) {
+	font-size: 5rem;
+	}
+
+	.word2 span:nth-of-type(even), .word3 span:nth-of-type(even), .word5 span:nth-of-type(even), .word6 span:nth-of-type(even), .word7 span:nth-of-type(even), .word13 span:nth-of-type(even), .word15 span:nth-of-type(even), .word16 span:nth-of-type(even) {
+	font-size: 5rem;
+	}
+
+}
+
+/* iPhone 6+ */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+	html {
+	font-size: 31.25%;
+	}
+
+	#floater {
+	/* typography */
+	font-family: Arial Black, Arial;
+	font-weight: bold;
+	font-size: 5rem;
+	line-height: 3rem;
+	letter-spacing: 0.03rem;
+	}
+
+	.word-wrap {
+	float: left;
+	padding-right: 5px;
+	}
+
+	.word1 span:nth-of-type(odd), .word4 span:nth-of-type(odd), .word8 span:nth-of-type(odd), .word9 span:nth-of-type(odd), .word10 span:nth-of-type(odd), .word11 span:nth-of-type(odd), .word12 span:nth-of-type(odd), .word14 span:nth-of-type(odd) {
+	font-size: 5rem;
+	}
+
+	.word2 span:nth-of-type(even), .word3 span:nth-of-type(even), .word5 span:nth-of-type(even), .word6 span:nth-of-type(even), .word7 span:nth-of-type(even), .word13 span:nth-of-type(even), .word15 span:nth-of-type(even), .word16 span:nth-of-type(even) {
+	font-size: 5rem;
+	}
+}
